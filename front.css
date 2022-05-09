@@ -1,0 +1,166 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    margin: 0;
+    background: url(assesets/background.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    max-height: fit-content;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+.headercont{
+    border:none;  
+    width: 100%;
+    font-size: 15px;
+
+}
+
+
+header{
+    width: 100%;
+    padding: 1.5em;
+}
+
+
+.logo{
+    border: 2px solid white;
+    color: white;
+    font-family: Broadway;
+    font-size: 35px;
+    max-width: max-content;
+    float: left;
+}
+
+header nav *{
+    text-decoration: none;
+}
+
+header nav{
+   text-align: right;
+   margin: 3px;
+}
+
+#menu li{
+    margin: 5px;
+}
+
+header li{
+    
+    font-size: 13px;
+    font-family: broadway;
+    padding: 3px;
+    list-style: none;
+    display:inline;
+
+}
+header li *{
+    color: white;
+}
+header li:hover *{
+    color: black;
+}
+
+header li:hover{
+    border-radius: 15px;
+    box-shadow: 0 0 1.5em white;
+    background-color: white;
+}
+
+.mainTitle{
+    text-align: center;
+    color: white;
+}
+
+
+
+#menu{
+    font-size: 12px;
+}
+
+
+.contain {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.home-btn{
+    display: inline-flex;
+}
+
+
+#text{
+    height: max-content;
+    font-family: century gothic;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 4px;
+    text-align: center;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+
+
+@media (min-width: 5px) and (max-width: 380px) {
+    body{
+        background-position: center;
+       
+    }
+    .headercont{
+        position: relative;
+    }
+
+    header li{
+        font-size: 12px;
+
+    }
+    #text{
+        font-size: 13px;
+    }
+}
+
+@media(min-width: 381px) and (max-width: 779px){
+    body{
+        background-size: cover;
+    }
+    header li{
+        font-size: 12px;
+        
+        
+        
+    }
+
+    .headercont{
+        position: relative;
+    }
+    footer li{
+        display: inline;
+    }
+}
+
+
+@media screen and (min-width: 770px) {
+    #menu{
+        font-size: 15px;
+    }
+
+
+
+}
