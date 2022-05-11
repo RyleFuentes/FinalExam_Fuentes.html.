@@ -2,8 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-
-
 body{
     margin: 0;
    
@@ -16,6 +14,7 @@ body{
     background-position: center top;
     background-repeat: no-repeat;
     height: 100vh;
+    overflow: hidden;
 }
 
 *{
@@ -67,7 +66,7 @@ header nav{
 header li{
     
     font-size: 13px;
-    font-family: broadway;
+    font-family: Tahoma;
     padding: 3px;
     list-style: none;
     display:inline;
@@ -86,9 +85,17 @@ header li:hover{
     background-color: white;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+}
+
 .mainTitle{
     text-align: center;
     color: white;
+    padding: 5px;
+    width: max-content;
+    font-size: 50px;
 }
 
 
@@ -99,12 +106,15 @@ header li:hover{
 
 
 .contain {
+    text-align: center;
     padding: 3em;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     gap: 2em;
 }
+
+
 
 .home-btn{
     display: inline-flex;
