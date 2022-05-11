@@ -2,17 +2,18 @@ html{
     scroll-behavior: smooth;
 }
 
-
-
 body{
     margin: 0;
-    background: url(assesets/background.jpg);
+   
+
+}
+
+.background{
+    background: url(../assesets/eurasian-pygmy-owl-6881984_1920.jpg);
     background-size: cover;
-    background-position: center;
-    top: 0;
+    background-position: center top;
     background-repeat: no-repeat;
-    max-height: max-content;
-    
+    height: 100vh;
 }
 
 *{
@@ -24,15 +25,19 @@ body{
     border:none;  
     width: 100%;
     font-size: 15px;
-    position: sticky;
-    top: 0;
+
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 
 header{
     width: 100%;
     padding: 1.5em;
-    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 
@@ -42,7 +47,6 @@ header{
     font-family: Broadway;
     font-size: 35px;
     max-width: max-content;
-    float: left;
 }
 
 header nav *{
@@ -50,18 +54,21 @@ header nav *{
 }
 
 header nav{
-   text-align: right;
-   margin: 3px;
-    word-spacing: 10px;
+    text-align: right;
+    margin: 3px;
+ }
+
+#menu li{
+    margin: 5px;
 }
 
 header li{
-    font-family: broadway;
-    margin: 3px;
+    margin: 5px;
+    font-size: 13px;
+    font-family: Tahoma;
+    padding: 3px;
     list-style: none;
     display:inline;
-    border: 2px solid white;
-    border-radius: 15px;
 
 }
 header li *{
@@ -72,6 +79,7 @@ header li:hover *{
 }
 
 header li:hover{
+    border-radius: 15px;
     box-shadow: 0 0 1.5em white;
     background-color: white;
 }
