@@ -64,7 +64,7 @@ header nav{
 }
 
 header li{
-    
+    margin: 5px;
     font-size: 13px;
     font-family: Tahoma;
     padding: 3px;
