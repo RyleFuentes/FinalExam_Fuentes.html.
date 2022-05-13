@@ -8,7 +8,8 @@ body{
 }
 
 .background{
-    background: url(../assesets/Home_Background.jpg);
+    background: linear-gradient(hsl(240, 100%, 50%, .4), hsl(180, 100%, 50%, .6)),
+                url(../assesets/Home_Background.jpg);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
